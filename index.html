@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Henintsoa · Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="petals" aria-hidden="true"></div>
+<div class="window">
+  <aside class="side">
+    <div class="top">
+      <!-- Drop your photo at portfolio/photo.jpg — the initials show until then -->
+      <div class="avatar" id="avatar">HR</div>
+      <div class="name"><strong class="wave">Henintsoa</strong><span>AI ENGINEER · RESEARCH</span></div>
+    </div>
+    <nav class="nav" role="tablist">
+      <button role="tab" data-go="home" aria-selected="true"><span class="ico">⌂</span><span class="label">Home</span></button>
+      <button role="tab" data-go="about"><span class="ico">✿</span><span class="label">About</span></button>
+      <button role="tab" data-go="work"><span class="ico">✦</span><span class="label">Work</span></button>
+      <button role="tab" data-go="projects"><span class="ico">❖</span><span class="label">Projects</span></button>
+      <button role="tab" data-go="research"><span class="ico">✧</span><span class="label">Research</span></button>
+      <button role="tab" data-go="school"><span class="ico">✎</span><span class="label">School</span></button>
+      <button role="tab" data-go="contact"><span class="ico">✉</span><span class="label">Contact</span></button>
+    </nav>
+    <a class="cv-btn" href="./files/cv-henintsoa.pdf" download="Henintsoa-Randrianasolo-CV.pdf">⤓ Download CV</a>
+  </aside>
+  <div class="deco butterfly" style="width:80px;top:22px;right:34px"><img src="img/deco-butterfly.png" alt=""></div>
+  <main class="stage">
+    <!-- HOME -->
+    <section class="slide active" id="home">
+      <div class="home">
+        <div>
+          <div class="kicker">AI Engineer · Applied AI Research</div>
+          <h1>Hi, I'm <em>Henintsoa</em> —<br><span class="type" data-text="building AI that has an impact.">building AI that has an impact.</span></h1>
+          <p>I don't just want to build AI that works. I want to build AI that has a real impact on the world.</p>
+          <p>I work on LLMs, AI agents, NLP, information retrieval and automation.</p>
+          <div class="chips">
+            <span class="chip">LLMs</span><span class="chip">AI Agents</span><span class="chip">RAG</span><span class="chip">NLP</span><span class="chip">Information Retrieval</span><span class="chip">Automation</span>
+          </div>
+          <div class="cta">
+            <button class="btn solid" data-jump="projects" style="border:0;cursor:pointer;font-family:inherit">See my projects →</button>
+          </div>
+        </div>
+        <div>
+          <div class="quote"><img class="deco" src="img/deco-bow.png" alt="" style="width:64px;top:-30px;right:-18px;transform:rotate(12deg)">Going beyond what's technically possible, to solve problems that matter.<strong>My goal is simple: build AI that matters.</strong></div>
+          <div class="stats">
+            <div class="stat"><b data-count="3">3</b><span>years in AI</span></div>
+            <div class="stat"><b data-count="2">2</b><span>research theses</span></div>
+            <div class="stat"><b data-count="1" data-suffix="st">1st</b><span>Hack The Box '24</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="slide" id="about">
+      <h2><small>who's Henintsoa?</small>About me.</h2>
+      <p class="lead">AI Engineer from Madagascar, with a background in AI, Applied Mathematics and Electronics Engineering. I build LLM systems, RAG and automation workflows, and my research has explored mathematical reasoning in LLMs and NLP document classification.</p>
+      <p class="lead">I'm curious how intelligent systems reason and learn, and how they can have a real impact on the world.</p>
+      <div class="about-grid three">
+        <div class="panel"><h3><span class="num">01</span>AI &amp; Machine Learning</h3><div class="chips"><span class="chip">LLMs</span><span class="chip">RAG</span><span class="chip">AI agents &amp; agentic workflows</span><span class="chip">Prompt engineering &amp; CoT</span><span class="chip">NLP</span><span class="chip">Embeddings &amp; semantic search</span><span class="chip">LoRA fine-tuning</span></div></div>
+        <div class="panel"><h3><span class="num">02</span>Software Development</h3><div class="chips"><span class="chip">Python</span><span class="chip">Java</span><span class="chip">FastAPI</span><span class="chip">REST APIs</span><span class="chip">Streamlit</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">Pandas</span><span class="chip">NumPy</span></div></div>
+        <div class="panel"><h3><span class="num">03</span>Tools &amp; Infrastructure</h3><div class="chips"><span class="chip">LangChain</span><span class="chip">Hugging Face</span><span class="chip">Ollama</span><span class="chip">n8n</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Linux</span><span class="chip">CI/CD</span></div></div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="slide" id="work">
+      <h2><small>experience · tap a card</small>Work.</h2>
+      <img class="deco" src="img/deco-winged-heart.png" alt="" style="width:130px;top:44px;right:250px">
+      <div class="cards">
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><span class="ribbon">NOW</span><img class="pic" src="img/work-bay.png" alt=""><h3>AI Developer</h3><div class="meta">Bay Consulting · Antananarivo · Apr 2026 – Present</div><p class="desc">AI-powered applications using LLMs, RAG, and agent-based approaches.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Bay Consulting</h3><ul><li>Develop AI-powered applications using LLMs, RAG, and agent-based approaches.</li><li>Connect unstructured and structured data for context-aware answers.</li><li>Automation workflows for business challenges.</li></ul><div class="chips"><span class="chip">LLMs</span><span class="chip">RAG</span><span class="chip">Agents</span></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/work-giris.png" alt=""><h3>AI Engineer Intern</h3><div class="meta">Giris · Remote · Dec 2024 – Dec 2025</div><p class="desc">Applied AI and machine learning projects.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Giris</h3><ul><li>Worked on applied AI and machine learning projects.</li><li>Gained hands-on experience in AI application development, model integration, and experimentation.</li></ul><div class="chips"><span class="chip">Applied AI</span><span class="chip">ML</span></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/work-yas.png" alt=""><h3>Data Analyst</h3><div class="meta">Yas Madagascar · Jul 2023 – Mar 2025</div><p class="desc">Data processing and analysis to extract insights from datasets.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Yas Madagascar</h3><ul><li>Worked with data processing and analysis to extract insights from datasets.</li><li>Applied programming and analytical skills to support data-driven work.</li></ul><div class="chips"><span class="chip">Data analysis</span><span class="chip">Python</span></div></div>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="slide" id="projects">
+      <h2><small>selected projects · tap a card</small>Projects.</h2>
+      <div class="cards">
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/project-bible.png" alt=""><h3>Bible Automation</h3><div class="meta">n8n · Ollama · PostgreSQL · Docker</div><p class="desc">Connecting AI capabilities with practical workflows around Bible-related content.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Bible Automation</h3><ul><li>An automation project combining n8n, Ollama, PostgreSQL, and Docker.</li><li>Connects AI capabilities with practical workflows around Bible-related content.</li></ul><div class="links"><a class="btn" href="https://github.com/HenintsoaHARINORO/Bible_automation" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/project-scraping.png" alt=""><h3>Web Search and RAG</h3><div class="meta">Python · RAG · Information retrieval · LLMs</div><p class="desc">Responses grounded in relevant external information from the web.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Web Search and RAG</h3><ul><li>Combines web information retrieval with retrieval-augmented generation.</li><li>Provides responses grounded in relevant external information.</li></ul><div class="links"><a class="btn" href="https://github.com/HenintsoaHARINORO/Web_search" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/project-pdf.png" alt=""><h3>Chat with PDF</h3><div class="meta">Python · Embeddings · Semantic search · RAG</div><p class="desc">Explore document content through natural-language questions.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Chat with PDF</h3><ul><li>An application for exploring document content through natural-language questions.</li><li>Helps users find and understand information within documents.</li></ul><div class="links"><a class="btn" href="https://github.com/HenintsoaHARINORO" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><span class="ribbon">1ST PRIZE</span><img class="pic" src="img/project-resao.png" alt=""><h3>RESAO</h3><div class="meta">Hack The Box 2024 · Axian Group</div><p class="desc">Localized voice-recognition navigation, designed to make interaction more accessible.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>First Prize, Hack The Box 2024</h3><ul><li>Contributed to RESAO, a localized voice-recognition navigation application.</li><li>Designed to make interaction more accessible.</li><li>Organised by Axian Group.</li></ul></div>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="slide" id="research">
+      <h2><small>understanding AI to expand what it can do</small>Research.</h2>
+      <p class="lead">How AI systems reason, retrieve information and use knowledge.</p>
+      <div class="about-grid">
+        <div class="panel"><h3><span class="num">01</span>LLM Reasoning</h3><p>How LLMs tackle complex tasks like maths, and how reasoning strategies improve them.</p></div>
+        <div class="panel"><h3><span class="num">02</span>Information Retrieval</h3><p>Helping AI find and use the right information.</p></div>
+        <div class="panel"><h3><span class="num">03</span>Knowledge Graphs &amp; Agent Memory</h3><p>Structuring knowledge as graphs of entities and relations, so agents can remember across interactions, connect facts and reason over what they learned.</p></div>
+        <div class="panel"><h3><span class="num">04</span>NLP &amp; Sequence Modeling</h3><p>How models represent and understand language and sequences.</p></div>
+      </div>
+    </section>
+
+    <!-- SCHOOL -->
+    <section class="slide" id="school">
+      <h2><small>research &amp; education · tap a card</small>School.</h2>
+      <div class="cards">
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/school-mipt.png" alt=""><h3>MSc in Artificial Intelligence</h3><div class="meta">MIPT · Moscow · 2022 – 2024</div><p class="desc">Research: Mathematical Reasoning in Large Language Models.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>Moscow Institute of Physics and Technology</h3><ul><li>Research: Mathematical Reasoning in Large Language Models.</li><li>Chain-of-Thought prompting to improve LLM maths reasoning.</li></ul><div class="links"><a class="btn" href="https://www.overleaf.com/read/vhhpgnqdtypv#75aa40" target="_blank" rel="noopener">Read thesis ↗</a></div></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/school-espa.png" alt=""><h3>Engineering Degree, Electronics</h3><div class="meta">ESPA · Antananarivo · 2017 – 2023</div><p class="desc">Research: NLP-Based Document Classification.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>École Supérieure Polytechnique d'Antananarivo</h3><ul><li>Research: NLP-Based Document Classification.</li><li>Doc2Vec + Logistic Regression, 79% precision.</li></ul></div>
+        </div></div>
+        <div class="card" tabindex="0"><div class="card-inner">
+          <div class="face front"><img class="pic" src="img/school-smiles.png" alt=""><h3>SMILES Skoltech</h3><div class="meta">Research experience</div><p class="desc">Sequence modeling: Transformers vs recurrent neural networks.</p><div class="tap">TAP TO FLIP ↻</div></div>
+          <div class="face back"><h3>SMILES Skoltech</h3><ul><li>Explored sequence modeling approaches.</li><li>Compared Transformer-based architectures with recurrent neural networks such as GRUs.</li></ul><div class="links"><a class="btn" href="https://drive.google.com/file/d/1ykVx7LqKEjM0wEqTlWlSyiEuSVGTxo9y/view?usp=sharing" target="_blank" rel="noopener">See research ↗</a></div></div>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="slide" id="contact">
+      <h2><small>my vision · say hi</small>Contact.</h2>
+      <div class="contact-grid">
+        <div>
+          <h3 class="vision-title">AI that makes a difference.</h3>
+          <p class="lead">A future where AI helps people overcome barriers, access knowledge and reach opportunities once out of reach.</p>
+          <p class="lead">Open to AI engineering, applied AI research and collaborative projects.</p>
+          <p class="lead"><strong class="pink">Let's build AI that has an impact.</strong></p>
+        </div>
+        <div class="bizcard-wrap">
+          <div class="card bizcard" tabindex="0"><div class="card-inner">
+            <div class="face front"><img class="pic env" src="img/contact-envelope.png" alt=""><h3>Henintsoa Harinoro<br>Randrianasolo</h3><div class="meta" style="color:#fff;opacity:.9">AI Engineer · Antananarivo, MG</div><div class="tap" style="color:#fff;margin-top:18px">TAP TO FLIP ↻</div></div>
+            <div class="face back">
+              <a class="contact-row" href="mailto:henintsoa1001@gmail.com"><span class="ico">@</span>henintsoa1001@gmail.com</a>
+              <a class="contact-row" href="https://www.linkedin.com/in/henintsoa-harinoro-randrianasolo-501421198/" target="_blank" rel="noopener"><span class="ico">in</span>LinkedIn</a>
+              <a class="contact-row" href="https://github.com/HenintsoaHARINORO" target="_blank" rel="noopener"><span class="ico">⌥</span>GitHub</a>
+              <a class="contact-row" href="tel:+261349495165"><span class="ico">☏</span>+261 34 94 951 65</a>
+            </div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
